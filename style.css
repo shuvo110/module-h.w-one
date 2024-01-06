@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height:100vh;
+    background-image: url(img/banner/banner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.text{
+    text-align: right;
+    bottom:160px;
+    right: 190px;
+    position: absolute;
+}
+.text h2{
+    font-size: 35px;
+    margin: 10px 0px;
+}
+.text p{
+    margin: 18px 0px;
+    line-height:1.4;
+    text-align:right;
+}
+.text .btn{
+    margin-top: 20px;
+    display:inline-block;
+    background-color:#F15B22;
+    width:120px;
+    height:44px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* two section code start */
+.photo-text-prent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:850px;
+    margin:50px auto;
+    padding-bottom:150px;
+    gap: 40px;
+}
+.photo-text-prent .photo-text{
+    width:45%;
+}
+.photo-text-prent .photo-text img{
+    width: 100%;
+}
+.photo-text-prent .photo-text h2{
+    margin: 8px 0px;
+    letter-spacing:5;
+    text-shadow: 2px 2px 1px rgba(255, 0, 0, 0.534);
+}
+.photo-text-prent p{
+    margin: 15px 0px;
+    line-height: 1.5;
+}
+.photo-text-prent ul li{
+    list-style-type:"✅";
+    list-style-position: inside;
+    margin-top:8px;
+
+}
+
+/* 2rd section code start */
+.photo-div{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:80px;
+    width:850px;
+    margin: 30px auto;
+    text-align: center; 
+
+}
+.photo-div .mul h3{
+    margin: 10px 0px;
+}
+.photo-div .mul p{
+    color: rgba(0, 0, 0, 0.678);
+}
+
+/* There code start */
+.background{
+    width: 850px;
+    height:200px;
+    margin:60px auto;
+    padding:30px 40px;
+    background-image:url(img/gradient2.png), url(img/watch.png);
+    background-position:top bottom right bottom;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.background h2{
+    color:#ece5e2;
+    margin-top:50px;
+    
+}
+.bto {
+    display: block;
+    margin-top:35px;
+    padding:15px 35px;
+    background-color: #f0efef;
+    border: none;
+    border-radius: 8px;
+}
+
+/* footer section code start */
+footer{
+    background-color: rgba(0, 0, 0, 0.726);
+    color: rgb(224, 215, 192);
+    padding:100px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .text-link{
+    width:40%;
+}
+footer .text-link h2{
+    padding:10px 0px;
+    font-size:35px;
+
+}
+footer> .text-link> .text-one{
+    padding:15px 0px; 
+    line-height:1.4;
+
+}
+footer> .text-link> .contect a{
+    text-decoration: none;
+    display: block;
+    color: rgb(223, 219, 212);
+    padding-top:10px ;
+}
+footer> .text-link> .img a{
+    display:inline-block;
+    margin: 20px 15px 0px 0px;
+}
+footer> .text-link> .in input[type="email"]{
+    display: block;
+    width: 250px;
+    height:30px;
+    padding:10px 10px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+}
+footer> .text-link> .in input::placeholder{
+    color: rgb(245, 241, 234);
+}
+footer> .text-link> .in .submit-bnt{
+    padding: 15px 25px;
+    margin:10px 0px 30px 0px;
+    display: block;
+    border-radius: 8px;
+}
